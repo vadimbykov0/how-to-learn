@@ -311,6 +311,10 @@ section, div, article, p, nav, ul, li, h1, h2, h3, h4 {
   margin-top: 80px;
 }
 
+.table__text_theme_dark {
+  color: #fff;
+}
+
 /* footer */
 
 .footer {
