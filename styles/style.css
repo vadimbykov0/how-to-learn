@@ -1,10 +1,8 @@
-/* borders of elements
+/* borders of elements */
 
 section, div, article, p, nav, ul, li, h1, h2, h3, h4 {
   border: 1px solid red;
 }
-
-*/
 
 .page {
   min-width: 1100px;
@@ -31,6 +29,19 @@ section, div, article, p, nav, ul, li, h1, h2, h3, h4 {
   background-image: url(../images/logo_place_footer.svg);
 }
 
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} 
+
+.rotation {
+  animation: rotation 20s linear infinite;
+}
+
 /* header */
 
 .header {
@@ -41,6 +52,7 @@ section, div, article, p, nav, ul, li, h1, h2, h3, h4 {
   display: flex;
   position: relative;
   align-items: center;
+  overflow: hidden;
 }
 
 .header__title {
@@ -96,6 +108,39 @@ section, div, article, p, nav, ul, li, h1, h2, h3, h4 {
 }
 
 /* main */
+
+/* section techniques */
+
+.techniques {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0 0 0;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 920px;
+}
+
+.cards__item {
+
+}
+
+.cards__image {
+  width: 160px;
+  height: 160px;
+}
+
+.cards__title {
+
+}
+
+.cards__description {
+
+}
 
 /* section description */
 
