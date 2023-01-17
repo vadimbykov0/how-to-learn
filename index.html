@@ -6,8 +6,7 @@
   <meta name="description" content="Лендинговая страница проектной работы 'Научиться учиться' курса Веб-разработчик от Яндекс Практикум">
   <meta name="keywords" content="landing page, яндекс практикум, how to learn, ричард фейнман, джош кауфман">
   <meta name="author" content="Вадим Быков">
-  <link rel="stylesheet" href="./styles/normalize.css">
-  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./pages/index.css">
   <title>Научиться учиться</title>
 </head>
 <body>
@@ -44,7 +43,7 @@
           </div>
         </article>
       </section>
-      <section class="techniques">
+      <section class="techniques" aria-label="Две колонки">
         <h2 class="section-title">Техники обучения</h2>
         <p class="section-subtitle">Пять практик от Барбары Оакли</p>
         <div class="cards">
@@ -79,12 +78,12 @@
         <h2 class="section-title">Видео на TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <div class="video__iframes">
-          <iframe class="video__iframe" type="text/html" src="https://www.youtube.com/embed/5MgBikgcWnY" title="Лекция Джоша Кауфмана 'Как чему-то научиться' на Тед" allowfullscreen></iframe>
-          <iframe class="video__iframe" type="text/html" src="https://www.youtube.com/embed/arj7oStGLkU" title="Лекция Тима Урбана о прокрастинации на Тед" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" title="Лекция Джоша Кауфмана 'Как чему-то научиться' на Тед" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" title="Лекция Тима Урбана о прокрастинации на Тед" allowfullscreen></iframe>
         </div>
       </section>
       <section class="oakley">
-        <article class="two-columns">
+        <div class="two-columns">
           <h2 class="two-columns__brief">История Барбары Оакли</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">
@@ -96,7 +95,7 @@
               Оказалось, если вам что-то «плохо дается», ваши добытые трудом знания гораздо глубже, чем у тех, кому все ясно с первого взгляда.
             </p>
           </div>
-        </article>
+        </div>
       </section>
       <section class="feynman">
         <h2 class="feynman__title">Метод Фейнмана</h2>
@@ -156,7 +155,7 @@
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
             <img class="khan__book-pic" src="./images/khan-book.jpg" alt="Обложка книги Салмана Хана 'Весь мир - школа'">
-            <a class="khan__buy-link" href="https://ozon.ru/t/ge45nZj" target="_blank"><nobr>Купить книгу &rarr;</nobr></a>
+            <a class="khan__buy-link" href="https://ozon.ru/t/ge45nZj" target="_blank">Купить книгу &rarr;</a>
           </div>
         </div>
       </section>
